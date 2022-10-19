@@ -4,7 +4,7 @@ print(sr.__version__)
 
 r = sr.Recognizer()
 
-audioFile = sr.AudioFile('audio.wav')
+audioFile = sr.AudioFile('./Audio_files/audio.wav')
 with audioFile as source:
     audio = r.record(source)
 

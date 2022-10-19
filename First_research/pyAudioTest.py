@@ -6,7 +6,7 @@ CHANNELS = 1
 RATE = 44100 # Record at 44100 samples per second
 CHUNK = 1024 # Record in chunks of 1024 samples
 RECORD_SECONDS = 5
-WAVE_OUTPUT_FILENAME = "audio.wav"
+WAVE_OUTPUT_FILENAME = "./Audio_files/audio.wav"
  
 audio = pyaudio.PyAudio()
  
